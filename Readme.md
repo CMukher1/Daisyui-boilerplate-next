@@ -1,3 +1,11 @@
+
+# Next.js Application
+
+This is a Next.js application setup with React Query, Tailwind CSS, and TypeScript. Below is the folder structure and setup instructions.
+
+## Folder Structure
+
+```
 ├── public/                    # Static files like images, fonts, etc.
 ├── src/
 │   ├── components/            # Reusable components across your project
@@ -32,3 +40,101 @@
 ├── tsconfig.json              # TypeScript configuration
 ├── package.json               # Project metadata and dependencies
 └── yarn.lock                  # Yarn lock file (don't edit manually)
+```
+
+## Setup
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (>=14.x)
+- Yarn or npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+   ```
+
+2. Install the dependencies:
+
+   Using Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+   Or using npm:
+
+   ```bash
+   npm install
+   ```
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory and add your environment variables. Example:
+
+```env
+NEXT_PUBLIC_API_URL=https://api.example.com
+```
+
+### Running the Application
+
+To run the application in development mode:
+
+Using Yarn:
+
+```bash
+yarn dev
+```
+
+Or using npm:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:3000`.
+
+### Generating API (if applicable)
+
+If you are using OpenAPI to generate API client code, follow the instructions specific to your setup. Typically, this involves running a script or using a tool like Swagger Codegen.
+
+### Building for Production
+
+To build the application for production:
+
+Using Yarn:
+
+```bash
+yarn build
+```
+
+Or using npm:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+Using Yarn:
+
+```bash
+yarn start
+```
+
+Or using npm:
+
+```bash
+npm start
+```
+
+## Additional Scripts
+
+- `yarn lint` or `npm run lint`: Run the linter.
+- `yarn test` or `npm run test`: Run tests.
