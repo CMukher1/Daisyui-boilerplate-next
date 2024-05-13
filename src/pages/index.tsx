@@ -1,4 +1,5 @@
 import React from 'react';
+import ExampleComponent from '../components/ExampleComponent';
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
           <p>This is boilerplate for Next with Daisy UI.</p>
           
         </div>
+      </div>
+      <div className='p-5'>
+        <ExampleComponent />
       </div>
     </div>
   );
