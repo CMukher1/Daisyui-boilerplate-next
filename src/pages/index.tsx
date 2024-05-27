@@ -1,5 +1,5 @@
 import React from 'react';
-import ExampleComponent from '../components/ExampleComponent';
+import DummyListComponent from '../components/DummyList';
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </div>
       <div className='p-5'>
-        <ExampleComponent />
+        <DummyListComponent />
       </div>
     </div>
   );
