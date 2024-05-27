@@ -12,6 +12,7 @@
         "generateapi": "npx @openapitools/openapi-generator-cli generate -g typescript-axios -i api-docs/openapi.json -o src/lib/api --global-property skipFormModel=false"
     },
     "dependencies": {
+        "framer-motion": "^11.2.6",
         "next": "13.5.1",
         "react": "18.2.0",
         "react-dom": "18.2.0"
